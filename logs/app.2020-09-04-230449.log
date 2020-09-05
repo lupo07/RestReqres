@@ -1,0 +1,188 @@
+23:04:49.221 [INFO ] [StepDefinition] - The Test Suite app.stepdef.StepDefinition has started
+23:04:50.342 [INFO ] [StepDefinition] - 
+ ----------------------------------------------------------------------
+23:04:50.342 [INFO ] [StepDefinition] -  -------------- Step 1 Read test data ------------------
+23:04:50.349 [INFO ] [StepDefinition] - Read the email
+23:04:50.356 [INFO ] [StepDefinition] - Read the password
+23:04:50.356 [INFO ] [StepDefinition] - Read the KeyHeader
+23:04:50.356 [INFO ] [StepDefinition] - Read the headerValue
+23:04:50.356 [INFO ] [StepDefinition] - Read the EndPoint
+23:04:50.356 [INFO ] [StepDefinition] - Read the Status Code
+23:04:50.356 [INFO ] [StepDefinition] - 
+ ----------------------------------------------------------------------
+23:04:50.356 [INFO ] [StepDefinition] -  -------------- Step 2 Set Request ------------------
+23:04:50.356 [INFO ] [RegresInOperations] - The endpoint is: /login
+23:04:50.372 [INFO ] [RegresInOperations] - String JSON: {  "email": "eve.holt@reqres.in" ,  "password": "cityslicka"}
+23:04:50.669 [INFO ] [RegresInOperations] - JSON: {  "email": "eve.holt@reqres.in" ,  "password": "cityslicka"}
+23:04:50.669 [INFO ] [RestUtilities] - The set the Request 
+23:04:51.266 [INFO ] [RestUtilities] - The set the Response
+23:04:51.606 [INFO ] [StepDefinition] - 
+ ----------------------------------------------------------------------
+23:04:51.612 [INFO ] [StepDefinition] -  -------------- Step 3 Set and Verify Response ------------------
+23:04:53.203 [TRACE] [RestUtilities] - Request method:	POST
+23:04:53.208 [TRACE] [RestUtilities] - Request URI:	https://reqres.in/api/login
+23:04:53.208 [TRACE] [RestUtilities] - Proxy:			<none>
+23:04:53.208 [TRACE] [RestUtilities] - Request params:	<none>
+23:04:53.208 [TRACE] [RestUtilities] - Query params:	<none>
+23:04:53.208 [TRACE] [RestUtilities] - Form params:	<none>
+23:04:53.208 [TRACE] [RestUtilities] - Path params:	<none>
+23:04:53.208 [TRACE] [RestUtilities] - Headers:		Accept=*/*
+23:04:53.208 [TRACE] [RestUtilities] - 				Content-Type=application/json; charset=UTF-8
+23:04:53.208 [TRACE] [RestUtilities] - Cookies:		<none>
+23:04:53.208 [TRACE] [RestUtilities] - Multiparts:		<none>
+23:04:53.208 [TRACE] [RestUtilities] - Body:
+23:04:53.208 [TRACE] [RestUtilities] - {
+23:04:53.208 [TRACE] [RestUtilities] -     "email": "eve.holt@reqres.in",
+23:04:53.208 [TRACE] [RestUtilities] -     "password": "cityslicka"
+23:04:53.208 [TRACE] [RestUtilities] - }
+23:04:56.993 [TRACE] [RestUtilities] - HTTP/1.1 200 OK
+23:04:56.993 [TRACE] [RestUtilities] - Date: Sat, 05 Sep 2020 04:04:56 GMT
+23:04:56.993 [TRACE] [RestUtilities] - Content-Type: application/json; charset=utf-8
+23:04:56.993 [TRACE] [RestUtilities] - Content-Length: 29
+23:04:56.993 [TRACE] [RestUtilities] - Connection: keep-alive
+23:04:56.993 [TRACE] [RestUtilities] - Set-Cookie: __cfduid=dfa0047a48efabd2c49cf5b248421a71c1599278696; expires=Mon, 05-Oct-20 04:04:56 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+23:04:56.993 [TRACE] [RestUtilities] - X-Powered-By: Express
+23:04:56.993 [TRACE] [RestUtilities] - Access-Control-Allow-Origin: *
+23:04:56.993 [TRACE] [RestUtilities] - Etag: W/"1d-lGCrvD6B7Qzk11+2C98+nGhhuec"
+23:04:56.993 [TRACE] [RestUtilities] - Via: 1.1 vegur
+23:04:57.004 [TRACE] [RestUtilities] - CF-Cache-Status: DYNAMIC
+23:04:57.004 [TRACE] [RestUtilities] - cf-request-id: 04fe095f6e0000fedeca93b200000001
+23:04:57.004 [TRACE] [RestUtilities] - Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+23:04:57.004 [TRACE] [RestUtilities] - Server: cloudflare
+23:04:57.004 [TRACE] [RestUtilities] - CF-RAY: 5cdd11abef2efede-IAH
+23:04:57.004 [TRACE] [RestUtilities] - 
+23:04:57.004 [TRACE] [RestUtilities] - {
+23:04:57.004 [TRACE] [RestUtilities] -     "token": "QpwL5tke4Pnpja7X4"
+23:04:57.004 [TRACE] [RestUtilities] - }
+23:04:59.053 [INFO ] [RegresInOperations] - The response is: {"token":"QpwL5tke4Pnpja7X4"}
+23:04:59.053 [INFO ] [StepDefinition] - The response was validated
+23:04:59.056 [INFO ] [StepDefinition] - The Test Steps app.stepdef.StepDefinition have been completed
+23:04:59.058 [INFO ] [StepDefinition] - ======PASSED=====
+23:04:59.078 [INFO ] [StepDefinition] - The Test Suite app.stepdef.StepDefinition has started
+23:04:59.081 [INFO ] [StepDefinition] - 
+ ----------------------------------------------------------------------
+23:04:59.082 [INFO ] [StepDefinition] -  -------------- Step 1 Read Test data ------------------
+23:04:59.082 [INFO ] [StepDefinition] - Read the name
+23:04:59.084 [INFO ] [StepDefinition] - Read the job
+23:04:59.087 [INFO ] [StepDefinition] - Read the KeyHeader
+23:04:59.090 [INFO ] [StepDefinition] - Read the headerValue
+23:04:59.096 [INFO ] [StepDefinition] - Read the EndPoint
+23:04:59.098 [INFO ] [StepDefinition] - Read the Status Code
+23:04:59.098 [INFO ] [StepDefinition] - 
+ ----------------------------------------------------------------------
+23:04:59.098 [INFO ] [StepDefinition] -  -------------- Step 2 Set Request ------------------
+23:04:59.098 [INFO ] [RegresInOperations] - String JSON: {  "name": "eve.holt@reqres.in" ,  "job": "cityslicka"}
+23:04:59.098 [INFO ] [RegresInOperations] - JSON: {  "name": "eve.holt@reqres.in" ,  "job": "cityslicka"}
+23:04:59.098 [INFO ] [RestUtilities] - The set the Request 
+23:04:59.098 [INFO ] [RestUtilities] - The set the Response
+23:04:59.102 [INFO ] [StepDefinition] - 
+ ----------------------------------------------------------------------
+23:04:59.102 [INFO ] [StepDefinition] -  -------------- Step 3 Set and Verify Response ------------------
+23:04:59.182 [TRACE] [RestUtilities] - Request method:	POST
+23:04:59.182 [TRACE] [RestUtilities] - Request URI:	https://reqres.in/api/users
+23:04:59.182 [TRACE] [RestUtilities] - Proxy:			<none>
+23:04:59.182 [TRACE] [RestUtilities] - Request params:	<none>
+23:04:59.182 [TRACE] [RestUtilities] - Query params:	<none>
+23:04:59.182 [TRACE] [RestUtilities] - Form params:	<none>
+23:04:59.182 [TRACE] [RestUtilities] - Path params:	<none>
+23:04:59.182 [TRACE] [RestUtilities] - Headers:		Accept=*/*
+23:04:59.182 [TRACE] [RestUtilities] - 				Content-Type=application/json; charset=UTF-8
+23:04:59.182 [TRACE] [RestUtilities] - Cookies:		<none>
+23:04:59.182 [TRACE] [RestUtilities] - Multiparts:		<none>
+23:04:59.182 [TRACE] [RestUtilities] - Body:
+23:04:59.182 [TRACE] [RestUtilities] - {
+23:04:59.182 [TRACE] [RestUtilities] -     "name": "eve.holt@reqres.in",
+23:04:59.182 [TRACE] [RestUtilities] -     "job": "cityslicka"
+23:04:59.182 [TRACE] [RestUtilities] - }
+23:04:59.790 [TRACE] [RestUtilities] - HTTP/1.1 201 Created
+23:04:59.790 [TRACE] [RestUtilities] - Date: Sat, 05 Sep 2020 04:04:59 GMT
+23:04:59.790 [TRACE] [RestUtilities] - Content-Type: application/json; charset=utf-8
+23:04:59.790 [TRACE] [RestUtilities] - Content-Length: 98
+23:04:59.790 [TRACE] [RestUtilities] - Connection: keep-alive
+23:04:59.790 [TRACE] [RestUtilities] - Set-Cookie: __cfduid=d4fa7bd85ee1e80413d7855db987416391599278699; expires=Mon, 05-Oct-20 04:04:59 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+23:04:59.790 [TRACE] [RestUtilities] - X-Powered-By: Express
+23:04:59.790 [TRACE] [RestUtilities] - Access-Control-Allow-Origin: *
+23:04:59.790 [TRACE] [RestUtilities] - Etag: W/"62-DvpkF8qXaun1ggE93nVV5fgdVOg"
+23:04:59.790 [TRACE] [RestUtilities] - Via: 1.1 vegur
+23:04:59.790 [TRACE] [RestUtilities] - CF-Cache-Status: DYNAMIC
+23:04:59.790 [TRACE] [RestUtilities] - cf-request-id: 04fe096b240000b3d03e9f8200000001
+23:04:59.790 [TRACE] [RestUtilities] - Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+23:04:59.790 [TRACE] [RestUtilities] - Server: cloudflare
+23:04:59.790 [TRACE] [RestUtilities] - CF-RAY: 5cdd11beaacbb3d0-IAH
+23:04:59.790 [TRACE] [RestUtilities] - 
+23:04:59.790 [TRACE] [RestUtilities] - {
+23:04:59.790 [TRACE] [RestUtilities] -     "name": "eve.holt@reqres.in",
+23:04:59.790 [TRACE] [RestUtilities] -     "job": "cityslicka",
+23:04:59.790 [TRACE] [RestUtilities] -     "id": "242",
+23:04:59.790 [TRACE] [RestUtilities] -     "createdAt": "2020-09-05T04:04:59.501Z"
+23:04:59.790 [TRACE] [RestUtilities] - }
+23:04:59.849 [INFO ] [RegresInOperations] - The response is: {"name":"eve.holt@reqres.in","job":"cityslicka","id":"242","createdAt":"2020-09-05T04:04:59.501Z"}
+23:04:59.849 [INFO ] [StepDefinition] - The response was validated
+23:04:59.849 [INFO ] [StepDefinition] - The Test Steps app.stepdef.StepDefinition have been completed
+23:04:59.849 [INFO ] [StepDefinition] - ======PASSED=====
+23:04:59.878 [INFO ] [StepDefinition] - The Test Suite app.stepdef.StepDefinition has started
+23:04:59.895 [INFO ] [StepDefinition] - 
+ ----------------------------------------------------------------------
+23:04:59.895 [INFO ] [StepDefinition] -  -------------- Step 1 Read Test data ------------------
+23:04:59.895 [INFO ] [StepDefinition] - Read the name
+23:04:59.911 [INFO ] [StepDefinition] - Read the lastname
+23:04:59.933 [INFO ] [StepDefinition] - Read the id
+23:04:59.933 [INFO ] [StepDefinition] - Read the EndPoint
+23:04:59.933 [INFO ] [StepDefinition] - Read the Status Code
+23:04:59.933 [INFO ] [StepDefinition] - 
+ ----------------------------------------------------------------------
+23:04:59.933 [INFO ] [StepDefinition] -  -------------- Step 2 Set Request ------------------
+23:04:59.943 [INFO ] [RestUtilities] - The set the Request 
+23:04:59.943 [INFO ] [RestUtilities] - The set the Response
+23:04:59.943 [INFO ] [StepDefinition] - 
+ ----------------------------------------------------------------------
+23:04:59.943 [INFO ] [StepDefinition] -  -------------- Step 3 Set and Verify Response ------------------
+23:05:00.093 [TRACE] [RestUtilities] - Request method:	GET
+23:05:00.098 [TRACE] [RestUtilities] - Request URI:	https://reqres.in/api/users/7
+23:05:00.098 [TRACE] [RestUtilities] - Proxy:			<none>
+23:05:00.098 [TRACE] [RestUtilities] - Request params:	<none>
+23:05:00.098 [TRACE] [RestUtilities] - Query params:	<none>
+23:05:00.098 [TRACE] [RestUtilities] - Form params:	<none>
+23:05:00.098 [TRACE] [RestUtilities] - Path params:	<none>
+23:05:00.098 [TRACE] [RestUtilities] - Headers:		Accept=*/*
+23:05:00.098 [TRACE] [RestUtilities] - Cookies:		<none>
+23:05:00.098 [TRACE] [RestUtilities] - Multiparts:		<none>
+23:05:00.098 [TRACE] [RestUtilities] - Body:			<none>
+23:05:00.491 [TRACE] [RestUtilities] - HTTP/1.1 200 OK
+23:05:00.491 [TRACE] [RestUtilities] - Date: Sat, 05 Sep 2020 04:05:00 GMT
+23:05:00.491 [TRACE] [RestUtilities] - Content-Type: application/json; charset=utf-8
+23:05:00.491 [TRACE] [RestUtilities] - Transfer-Encoding: chunked
+23:05:00.491 [TRACE] [RestUtilities] - Connection: keep-alive
+23:05:00.491 [TRACE] [RestUtilities] - Set-Cookie: __cfduid=de249190b972f7f5c2b96c15e6c0160711599278700; expires=Mon, 05-Oct-20 04:05:00 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+23:05:00.491 [TRACE] [RestUtilities] - X-Powered-By: Express
+23:05:00.491 [TRACE] [RestUtilities] - Access-Control-Allow-Origin: *
+23:05:00.491 [TRACE] [RestUtilities] - Etag: W/"177-fGSlW9wHa6mgvsf6tGsV8zWQl+w"
+23:05:00.491 [TRACE] [RestUtilities] - Via: 1.1 vegur
+23:05:00.491 [TRACE] [RestUtilities] - Cache-Control: max-age=14400
+23:05:00.491 [TRACE] [RestUtilities] - CF-Cache-Status: HIT
+23:05:00.491 [TRACE] [RestUtilities] - Age: 544
+23:05:00.491 [TRACE] [RestUtilities] - cf-request-id: 04fe096ee60000feb26e39a200000001
+23:05:00.491 [TRACE] [RestUtilities] - Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+23:05:00.491 [TRACE] [RestUtilities] - Vary: Accept-Encoding
+23:05:00.491 [TRACE] [RestUtilities] - Server: cloudflare
+23:05:00.491 [TRACE] [RestUtilities] - CF-RAY: 5cdd11c4aa87feb2-IAH
+23:05:00.491 [TRACE] [RestUtilities] - Content-Encoding: gzip
+23:05:00.491 [TRACE] [RestUtilities] - 
+23:05:00.491 [TRACE] [RestUtilities] - {
+23:05:00.491 [TRACE] [RestUtilities] -     "data": {
+23:05:00.491 [TRACE] [RestUtilities] -         "id": 7,
+23:05:00.491 [TRACE] [RestUtilities] -         "email": "michael.lawson@reqres.in",
+23:05:00.491 [TRACE] [RestUtilities] -         "first_name": "Michael",
+23:05:00.507 [TRACE] [RestUtilities] -         "last_name": "Lawson",
+23:05:00.507 [TRACE] [RestUtilities] -         "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/follettkyle/128.jpg"
+23:05:00.507 [TRACE] [RestUtilities] -     },
+23:05:00.507 [TRACE] [RestUtilities] -     "ad": {
+23:05:00.507 [TRACE] [RestUtilities] -         "company": "StatusCode Weekly",
+23:05:00.507 [TRACE] [RestUtilities] -         "url": "http://statuscode.org/",
+23:05:00.507 [TRACE] [RestUtilities] -         "text": "A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."
+23:05:00.507 [TRACE] [RestUtilities] -     }
+23:05:00.507 [TRACE] [RestUtilities] - }
+23:05:00.611 [INFO ] [RegresInOperations] - The response is: {"data":{"id":7,"email":"michael.lawson@reqres.in","first_name":"Michael","last_name":"Lawson","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/follettkyle/128.jpg"},"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+23:05:00.611 [INFO ] [StepDefinition] - The response was validated
+23:05:00.611 [INFO ] [StepDefinition] - The Test Steps app.stepdef.StepDefinition have been completed
+23:05:00.627 [INFO ] [StepDefinition] - ======PASSED=====

@@ -1,0 +1,134 @@
+23:03:47.499 [INFO ] [RegresInSuite] - The Test Suite regres.in.test.RegresInSuite has started
+23:03:48.690 [INFO ] [RestUtilities] - The set the Request 
+23:03:48.965 [INFO ] [RestUtilities] - The set the Response
+23:03:50.346 [TRACE] [RestUtilities] - Request method:	GET
+23:03:50.346 [TRACE] [RestUtilities] - Request URI:	https://reqres.in/api/users/7
+23:03:50.347 [TRACE] [RestUtilities] - Proxy:			<none>
+23:03:50.347 [TRACE] [RestUtilities] - Request params:	<none>
+23:03:50.347 [TRACE] [RestUtilities] - Query params:	<none>
+23:03:50.347 [TRACE] [RestUtilities] - Form params:	<none>
+23:03:50.347 [TRACE] [RestUtilities] - Path params:	<none>
+23:03:50.347 [TRACE] [RestUtilities] - Headers:		Accept=*/*
+23:03:50.347 [TRACE] [RestUtilities] - Cookies:		<none>
+23:03:50.347 [TRACE] [RestUtilities] - Multiparts:		<none>
+23:03:50.347 [TRACE] [RestUtilities] - Body:			<none>
+23:03:51.913 [TRACE] [RestUtilities] - HTTP/1.1 200 OK
+23:03:51.914 [TRACE] [RestUtilities] - Date: Sat, 05 Sep 2020 04:03:51 GMT
+23:03:51.915 [TRACE] [RestUtilities] - Content-Type: application/json; charset=utf-8
+23:03:51.915 [TRACE] [RestUtilities] - Transfer-Encoding: chunked
+23:03:51.915 [TRACE] [RestUtilities] - Connection: keep-alive
+23:03:51.915 [TRACE] [RestUtilities] - Set-Cookie: __cfduid=d3476ab96cc7f0ad6ddc8641c0a0e058a1599278631; expires=Mon, 05-Oct-20 04:03:51 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+23:03:51.915 [TRACE] [RestUtilities] - X-Powered-By: Express
+23:03:51.915 [TRACE] [RestUtilities] - Access-Control-Allow-Origin: *
+23:03:51.915 [TRACE] [RestUtilities] - Etag: W/"177-fGSlW9wHa6mgvsf6tGsV8zWQl+w"
+23:03:51.915 [TRACE] [RestUtilities] - Via: 1.1 vegur
+23:03:51.915 [TRACE] [RestUtilities] - Cache-Control: max-age=14400
+23:03:51.915 [TRACE] [RestUtilities] - CF-Cache-Status: HIT
+23:03:51.915 [TRACE] [RestUtilities] - Age: 475
+23:03:51.915 [TRACE] [RestUtilities] - cf-request-id: 04fe08616b0000fee66328f200000001
+23:03:51.915 [TRACE] [RestUtilities] - Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+23:03:51.915 [TRACE] [RestUtilities] - Vary: Accept-Encoding
+23:03:51.915 [TRACE] [RestUtilities] - Server: cloudflare
+23:03:51.915 [TRACE] [RestUtilities] - CF-RAY: 5cdd10157fb2fee6-IAH
+23:03:51.915 [TRACE] [RestUtilities] - Content-Encoding: gzip
+23:03:51.921 [TRACE] [RestUtilities] - 
+23:03:51.921 [TRACE] [RestUtilities] - {
+23:03:51.921 [TRACE] [RestUtilities] -     "data": {
+23:03:51.921 [TRACE] [RestUtilities] -         "id": 7,
+23:03:51.921 [TRACE] [RestUtilities] -         "email": "michael.lawson@reqres.in",
+23:03:51.921 [TRACE] [RestUtilities] -         "first_name": "Michael",
+23:03:51.921 [TRACE] [RestUtilities] -         "last_name": "Lawson",
+23:03:51.921 [TRACE] [RestUtilities] -         "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/follettkyle/128.jpg"
+23:03:51.921 [TRACE] [RestUtilities] -     },
+23:03:51.921 [TRACE] [RestUtilities] -     "ad": {
+23:03:51.921 [TRACE] [RestUtilities] -         "company": "StatusCode Weekly",
+23:03:51.921 [TRACE] [RestUtilities] -         "url": "http://statuscode.org/",
+23:03:51.921 [TRACE] [RestUtilities] -         "text": "A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."
+23:03:51.921 [TRACE] [RestUtilities] -     }
+23:03:51.921 [TRACE] [RestUtilities] - }
+23:03:54.564 [INFO ] [RegresInOperations] - The response is: {"data":{"id":7,"email":"michael.lawson@reqres.in","first_name":"Michael","last_name":"Lawson","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/follettkyle/128.jpg"},"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+23:03:54.581 [INFO ] [RegresInSuite] - The Test Suite regres.in.test.RegresInSuite has started
+23:03:54.627 [INFO ] [RegresInOperations] - String JSON: {  "email": "eve.holt@reqres.in" ,  "password": "cityslicka"}
+23:03:54.975 [INFO ] [RegresInOperations] - JSON: {  "email": "eve.holt@reqres.in" ,  "password": "cityslicka"}
+23:03:54.975 [INFO ] [RestUtilities] - The set the Request 
+23:03:54.975 [INFO ] [RestUtilities] - The set the Response
+23:03:55.013 [TRACE] [RestUtilities] - Request method:	POST
+23:03:55.013 [TRACE] [RestUtilities] - Request URI:	https://reqres.in/api/login
+23:03:55.013 [TRACE] [RestUtilities] - Proxy:			<none>
+23:03:55.013 [TRACE] [RestUtilities] - Request params:	<none>
+23:03:55.013 [TRACE] [RestUtilities] - Query params:	<none>
+23:03:55.013 [TRACE] [RestUtilities] - Form params:	<none>
+23:03:55.013 [TRACE] [RestUtilities] - Path params:	<none>
+23:03:55.013 [TRACE] [RestUtilities] - Headers:		Accept=*/*
+23:03:55.013 [TRACE] [RestUtilities] - 				Content-Type=application/json; charset=UTF-8
+23:03:55.013 [TRACE] [RestUtilities] - Cookies:		<none>
+23:03:55.029 [TRACE] [RestUtilities] - Multiparts:		<none>
+23:03:55.029 [TRACE] [RestUtilities] - Body:
+23:03:55.029 [TRACE] [RestUtilities] - {
+23:03:55.029 [TRACE] [RestUtilities] -     "email": "eve.holt@reqres.in",
+23:03:55.029 [TRACE] [RestUtilities] -     "password": "cityslicka"
+23:03:55.029 [TRACE] [RestUtilities] - }
+23:03:55.652 [TRACE] [RestUtilities] - HTTP/1.1 200 OK
+23:03:55.652 [TRACE] [RestUtilities] - Date: Sat, 05 Sep 2020 04:03:55 GMT
+23:03:55.663 [TRACE] [RestUtilities] - Content-Type: application/json; charset=utf-8
+23:03:55.663 [TRACE] [RestUtilities] - Content-Length: 29
+23:03:55.663 [TRACE] [RestUtilities] - Connection: keep-alive
+23:03:55.663 [TRACE] [RestUtilities] - Set-Cookie: __cfduid=d9d99227df1aa7af1ec9de99e94c8865c1599278635; expires=Mon, 05-Oct-20 04:03:55 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+23:03:55.663 [TRACE] [RestUtilities] - X-Powered-By: Express
+23:03:55.663 [TRACE] [RestUtilities] - Access-Control-Allow-Origin: *
+23:03:55.663 [TRACE] [RestUtilities] - Etag: W/"1d-lGCrvD6B7Qzk11+2C98+nGhhuec"
+23:03:55.664 [TRACE] [RestUtilities] - Via: 1.1 vegur
+23:03:55.664 [TRACE] [RestUtilities] - CF-Cache-Status: DYNAMIC
+23:03:55.664 [TRACE] [RestUtilities] - cf-request-id: 04fe0870970000feea7eaa3200000001
+23:03:55.664 [TRACE] [RestUtilities] - Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+23:03:55.664 [TRACE] [RestUtilities] - Server: cloudflare
+23:03:55.664 [TRACE] [RestUtilities] - CF-RAY: 5cdd102dbfe7feea-IAH
+23:03:55.664 [TRACE] [RestUtilities] - 
+23:03:55.664 [TRACE] [RestUtilities] - {
+23:03:55.665 [TRACE] [RestUtilities] -     "token": "QpwL5tke4Pnpja7X4"
+23:03:55.665 [TRACE] [RestUtilities] - }
+23:03:55.693 [INFO ] [RegresInOperations] - The response is: {"token":"QpwL5tke4Pnpja7X4"}
+23:03:55.712 [INFO ] [RegresInSuite] - The Test Suite regres.in.test.RegresInSuite has started
+23:03:55.712 [INFO ] [RegresInOperations] - String JSON: {  "name": "morpheus" ,  "job": "leader"}
+23:03:55.712 [INFO ] [RegresInOperations] - JSON: {  "name": "morpheus" ,  "job": "leader"}
+23:03:55.712 [INFO ] [RestUtilities] - The set the Request 
+23:03:55.712 [INFO ] [RestUtilities] - The set the Response
+23:03:55.758 [TRACE] [RestUtilities] - Request method:	POST
+23:03:55.758 [TRACE] [RestUtilities] - Request URI:	https://reqres.in/api/users
+23:03:55.758 [TRACE] [RestUtilities] - Proxy:			<none>
+23:03:55.758 [TRACE] [RestUtilities] - Request params:	<none>
+23:03:55.758 [TRACE] [RestUtilities] - Query params:	<none>
+23:03:55.758 [TRACE] [RestUtilities] - Form params:	<none>
+23:03:55.758 [TRACE] [RestUtilities] - Path params:	<none>
+23:03:55.758 [TRACE] [RestUtilities] - Headers:		Accept=*/*
+23:03:55.758 [TRACE] [RestUtilities] - 				Content-Type=application/json; charset=UTF-8
+23:03:55.758 [TRACE] [RestUtilities] - Cookies:		<none>
+23:03:55.758 [TRACE] [RestUtilities] - Multiparts:		<none>
+23:03:55.758 [TRACE] [RestUtilities] - Body:
+23:03:55.758 [TRACE] [RestUtilities] - {
+23:03:55.758 [TRACE] [RestUtilities] -     "name": "morpheus",
+23:03:55.762 [TRACE] [RestUtilities] -     "job": "leader"
+23:03:55.762 [TRACE] [RestUtilities] - }
+23:03:56.288 [TRACE] [RestUtilities] - HTTP/1.1 201 Created
+23:03:56.289 [TRACE] [RestUtilities] - Date: Sat, 05 Sep 2020 04:03:56 GMT
+23:03:56.289 [TRACE] [RestUtilities] - Content-Type: application/json; charset=utf-8
+23:03:56.290 [TRACE] [RestUtilities] - Content-Length: 84
+23:03:56.290 [TRACE] [RestUtilities] - Connection: keep-alive
+23:03:56.290 [TRACE] [RestUtilities] - Set-Cookie: __cfduid=d1282138f4279b8d2f99f777d67aabde11599278635; expires=Mon, 05-Oct-20 04:03:55 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+23:03:56.290 [TRACE] [RestUtilities] - X-Powered-By: Express
+23:03:56.291 [TRACE] [RestUtilities] - Access-Control-Allow-Origin: *
+23:03:56.291 [TRACE] [RestUtilities] - Etag: W/"54-Se1W7emykvFvR7rzIRXoBAPRCrk"
+23:03:56.291 [TRACE] [RestUtilities] - Via: 1.1 vegur
+23:03:56.291 [TRACE] [RestUtilities] - CF-Cache-Status: DYNAMIC
+23:03:56.291 [TRACE] [RestUtilities] - cf-request-id: 04fe0873170000fece8e121200000001
+23:03:56.291 [TRACE] [RestUtilities] - Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+23:03:56.291 [TRACE] [RestUtilities] - Server: cloudflare
+23:03:56.291 [TRACE] [RestUtilities] - CF-RAY: 5cdd1031bc11fece-IAH
+23:03:56.291 [TRACE] [RestUtilities] - 
+23:03:56.292 [TRACE] [RestUtilities] - {
+23:03:56.292 [TRACE] [RestUtilities] -     "name": "morpheus",
+23:03:56.292 [TRACE] [RestUtilities] -     "job": "leader",
+23:03:56.292 [TRACE] [RestUtilities] -     "id": "101",
+23:03:56.292 [TRACE] [RestUtilities] -     "createdAt": "2020-09-05T04:03:55.995Z"
+23:03:56.292 [TRACE] [RestUtilities] - }
+23:03:56.345 [INFO ] [RegresInOperations] - The response is: {"name":"morpheus","job":"leader","id":"101","createdAt":"2020-09-05T04:03:55.995Z"}

@@ -1,0 +1,418 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-09-05T04:04:48.035Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1986844500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.before(Scenario)"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Login Resgres",
+        "description": "",
+        "id": "resgres-apis-this-is-for-practice-restassured;login-resgres;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 3677200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.cleanUp(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 111083200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I have the email eve.holt@reqres.in",
+            "match": {
+              "arguments": [
+                {
+                  "val": "eve.holt@reqres.in",
+                  "offset": 17
+                }
+              ],
+              "location": "StepDefinition.i_have_the_email(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2435000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I have the password cityslicka",
+            "match": {
+              "arguments": [
+                {
+                  "val": "cityslicka",
+                  "offset": 20
+                }
+              ],
+              "location": "StepDefinition.i_have_the_password(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1095600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I have the keyHeader Content-Type",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Content-Type",
+                  "offset": 21
+                }
+              ],
+              "location": "StepDefinition.i_have_the_keyHeader(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 883700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I have the headerValue application/json",
+            "match": {
+              "arguments": [
+                {
+                  "val": "application/json",
+                  "offset": 23
+                }
+              ],
+              "location": "StepDefinition.i_have_the_headerValue(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3313100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I set the endpoint Login",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Login",
+                  "offset": 19
+                }
+              ],
+              "location": "StepDefinition.i_set_the_endpoint(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8684714500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I can verify the status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 29
+                }
+              ],
+              "location": "StepDefinition.i_can_verify_the_status_code(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-05T04:04:59.064Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1703800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.before(Scenario)"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "Create resource Resgres",
+        "description": "",
+        "id": "resgres-apis-this-is-for-practice-restassured;create-resource-resgres;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 888300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.cleanUp(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1927300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I have the name eve.holt@reqres.in",
+            "match": {
+              "arguments": [
+                {
+                  "val": "eve.holt@reqres.in",
+                  "offset": 16
+                }
+              ],
+              "location": "StepDefinition.i_have_the_name(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1424900,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I have the job cityslicka",
+            "match": {
+              "arguments": [
+                {
+                  "val": "cityslicka",
+                  "offset": 15
+                }
+              ],
+              "location": "StepDefinition.i_have_the_job(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2381300,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I have the keyHeader Content-Type",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Content-Type",
+                  "offset": 21
+                }
+              ],
+              "location": "StepDefinition.i_have_the_keyHeader(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6119000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I have the headerValue application/json",
+            "match": {
+              "arguments": [
+                {
+                  "val": "application/json",
+                  "offset": 23
+                }
+              ],
+              "location": "StepDefinition.i_have_the_headerValue(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1405300,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I set the endpoint Users",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Users",
+                  "offset": 19
+                }
+              ],
+              "location": "StepDefinition.i_set_the_endpoint(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 759948800,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I can verify the status 201 to create resource",
+            "match": {
+              "arguments": [
+                {
+                  "val": "201",
+                  "offset": 24
+                }
+              ],
+              "location": "StepDefinition.i_can_verify_the_status_to_create_resource(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-05T04:04:59.865Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1648400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.before(Scenario)"
+            }
+          }
+        ],
+        "line": 36,
+        "name": "Search a single User Resgres",
+        "description": "",
+        "id": "resgres-apis-this-is-for-practice-restassured;search-a-single-user-resgres;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 4725600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.cleanUp(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 13427800,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I have the name Michael",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Michael",
+                  "offset": 16
+                }
+              ],
+              "location": "StepDefinition.i_have_the_name(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6592000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I have the lastname Lawson",
+            "match": {
+              "arguments": [
+                {
+                  "val": " Lawson",
+                  "offset": 19
+                }
+              ],
+              "location": "StepDefinition.i_have_the_lastname(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5983300,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I have the id 7",
+            "match": {
+              "arguments": [
+                {
+                  "val": "7",
+                  "offset": 14
+                }
+              ],
+              "location": "StepDefinition.i_have_the_id(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1412100,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I set the endpoint Users",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Users",
+                  "offset": 19
+                }
+              ],
+              "location": "StepDefinition.i_set_the_endpoint(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 682117300,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I can verify for a single user the status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 47
+                }
+              ],
+              "location": "StepDefinition.i_can_verify_for_a_single_user_the_status_code(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Resgres APIs this is for practice RestAssured",
+    "description": "",
+    "id": "resgres-apis-this-is-for-practice-restassured",
+    "keyword": "Feature",
+    "uri": "file:features/RegresAPIs.feature",
+    "tags": []
+  }
+]

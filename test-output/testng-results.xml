@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="8914" started-at="2020-09-05T04:03:47Z" finished-at="2020-09-05T04:03:56Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="8914" started-at="2020-09-05T04:03:47Z" finished-at="2020-09-05T04:03:56Z">
+      <class name="regres.in.test.RegresInSuite">
+        <test-method status="PASS" signature="setClasses()[pri:0, instance:regres.in.test.RegresInSuite@194fad1]" name="setClasses" is-config="true" duration-ms="1196" started-at="2020-09-04T23:03:47Z" finished-at="2020-09-04T23:03:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setClasses -->
+        <test-method status="PASS" signature="testRest2API()[pri:0, instance:regres.in.test.RegresInSuite@194fad1]" name="testRest2API" duration-ms="5889" started-at="2020-09-04T23:03:48Z" finished-at="2020-09-04T23:03:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRest2API -->
+        <test-method status="PASS" signature="setClasses()[pri:0, instance:regres.in.test.RegresInSuite@194fad1]" name="setClasses" is-config="true" duration-ms="8" started-at="2020-09-04T23:03:54Z" finished-at="2020-09-04T23:03:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setClasses -->
+        <test-method status="PASS" signature="testRest3API()[pri:0, instance:regres.in.test.RegresInSuite@194fad1]" name="testRest3API" duration-ms="1112" started-at="2020-09-04T23:03:54Z" finished-at="2020-09-04T23:03:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRest3API -->
+        <test-method status="PASS" signature="testRestAPI()[pri:0, instance:regres.in.test.RegresInSuite@194fad1]" name="testRestAPI" duration-ms="634" started-at="2020-09-04T23:03:55Z" finished-at="2020-09-04T23:03:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRestAPI -->
+        <test-method status="PASS" signature="setClasses()[pri:0, instance:regres.in.test.RegresInSuite@194fad1]" name="setClasses" is-config="true" duration-ms="0" started-at="2020-09-04T23:03:55Z" finished-at="2020-09-04T23:03:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setClasses -->
+      </class> <!-- regres.in.test.RegresInSuite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

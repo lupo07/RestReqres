@@ -1,0 +1,53 @@
+22:19:32.142 [INFO ] [StepDefinition] - The Test Suite app.stepdef.StepDefinition has started
+22:19:33.267 [INFO ] [StepDefinition] - Read the email
+22:19:33.282 [INFO ] [StepDefinition] - Read the password
+22:19:33.285 [INFO ] [StepDefinition] - Read the KeyHeader
+22:19:33.288 [INFO ] [StepDefinition] - Read the headerValue
+22:19:33.292 [INFO ] [StepDefinition] - Read the EndPoint
+22:19:33.295 [INFO ] [StepDefinition] - Read the Status Code
+22:19:33.296 [INFO ] [StepDefinition] - Set Request
+22:19:33.296 [INFO ] [RegresInOperations] - The endpoint is: /login
+22:19:33.296 [INFO ] [RegresInOperations] - String JSON: {  "email": "eve.holt@reqres.in" ,  "password": "cityslicka"}
+22:19:33.601 [INFO ] [RegresInOperations] - JSON: {  "email": "eve.holt@reqres.in" ,  "password": "cityslicka"}
+22:19:33.601 [INFO ] [RestUtilities] - The set the Request 
+22:19:34.303 [INFO ] [RestUtilities] - The set the Response
+22:19:34.650 [INFO ] [StepDefinition] - Set Response
+22:19:35.982 [TRACE] [RestUtilities] - Request method:	POST
+22:19:35.982 [TRACE] [RestUtilities] - Request URI:	https://reqres.in/api/login
+22:19:35.982 [TRACE] [RestUtilities] - Proxy:			<none>
+22:19:35.982 [TRACE] [RestUtilities] - Request params:	<none>
+22:19:35.982 [TRACE] [RestUtilities] - Query params:	<none>
+22:19:35.982 [TRACE] [RestUtilities] - Form params:	<none>
+22:19:35.982 [TRACE] [RestUtilities] - Path params:	<none>
+22:19:35.982 [TRACE] [RestUtilities] - Headers:		Accept=*/*
+22:19:35.982 [TRACE] [RestUtilities] - 				Content-Type=application/json; charset=UTF-8
+22:19:35.982 [TRACE] [RestUtilities] - Cookies:		<none>
+22:19:35.982 [TRACE] [RestUtilities] - Multiparts:		<none>
+22:19:35.982 [TRACE] [RestUtilities] - Body:
+22:19:35.998 [TRACE] [RestUtilities] - {
+22:19:35.998 [TRACE] [RestUtilities] -     "email": "eve.holt@reqres.in",
+22:19:35.998 [TRACE] [RestUtilities] -     "password": "cityslicka"
+22:19:35.998 [TRACE] [RestUtilities] - }
+22:19:40.763 [TRACE] [RestUtilities] - HTTP/1.1 200 OK
+22:19:40.763 [TRACE] [RestUtilities] - Date: Sat, 05 Sep 2020 03:19:40 GMT
+22:19:40.763 [TRACE] [RestUtilities] - Content-Type: application/json; charset=utf-8
+22:19:40.763 [TRACE] [RestUtilities] - Content-Length: 29
+22:19:40.777 [TRACE] [RestUtilities] - Connection: keep-alive
+22:19:40.777 [TRACE] [RestUtilities] - Set-Cookie: __cfduid=d3a9853b0330b63524b02dc759874dd681599275980; expires=Mon, 05-Oct-20 03:19:40 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+22:19:40.778 [TRACE] [RestUtilities] - X-Powered-By: Express
+22:19:40.778 [TRACE] [RestUtilities] - Access-Control-Allow-Origin: *
+22:19:40.778 [TRACE] [RestUtilities] - Etag: W/"1d-lGCrvD6B7Qzk11+2C98+nGhhuec"
+22:19:40.778 [TRACE] [RestUtilities] - Via: 1.1 vegur
+22:19:40.778 [TRACE] [RestUtilities] - CF-Cache-Status: DYNAMIC
+22:19:40.778 [TRACE] [RestUtilities] - cf-request-id: 04fddfecf90000fed2e91f0200000001
+22:19:40.778 [TRACE] [RestUtilities] - Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+22:19:40.778 [TRACE] [RestUtilities] - Server: cloudflare
+22:19:40.778 [TRACE] [RestUtilities] - CF-RAY: 5cdccf5b2d00fed2-IAH
+22:19:40.778 [TRACE] [RestUtilities] - 
+22:19:40.778 [TRACE] [RestUtilities] - {
+22:19:40.778 [TRACE] [RestUtilities] -     "token": "QpwL5tke4Pnpja7X4"
+22:19:40.778 [TRACE] [RestUtilities] - }
+22:19:44.099 [INFO ] [RegresInOperations] - The response is: {"token":"QpwL5tke4Pnpja7X4"}
+22:19:44.099 [INFO ] [StepDefinition] - The response was validated
+22:19:44.101 [INFO ] [StepDefinition] - The Test Steps app.stepdef.StepDefinition have been completed
+22:19:44.103 [INFO ] [StepDefinition] - ======PASSED=====

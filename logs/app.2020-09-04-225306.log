@@ -1,0 +1,79 @@
+22:53:06.504 [INFO ] [StepDefinition] - The Test Suite app.stepdef.StepDefinition has started
+22:53:07.559 [INFO ] [StepDefinition] - 
+ ----------------------------------------------------------------------
+22:53:07.559 [INFO ] [StepDefinition] -  -------------- Step 1 Read test data ------------------
+22:53:07.559 [INFO ] [StepDefinition] - Read the email
+22:53:07.559 [INFO ] [StepDefinition] - Read the password
+22:53:07.569 [INFO ] [StepDefinition] - Read the KeyHeader
+22:53:07.569 [INFO ] [StepDefinition] - Read the headerValue
+22:53:07.569 [INFO ] [StepDefinition] - Read the EndPoint
+22:53:07.577 [INFO ] [StepDefinition] - Read the Status Code
+22:53:07.577 [INFO ] [StepDefinition] - 
+ ----------------------------------------------------------------------
+22:53:07.577 [INFO ] [StepDefinition] -  -------------- Step 2 Set Request ------------------
+22:53:07.577 [INFO ] [RegresInOperations] - The endpoint is: /login
+22:53:07.577 [INFO ] [RegresInOperations] - String JSON: {  "email": "eve.holt@reqres.in" ,  "password": "cityslicka"}
+22:53:07.868 [INFO ] [RegresInOperations] - JSON: {  "email": "eve.holt@reqres.in" ,  "password": "cityslicka"}
+22:53:07.868 [INFO ] [RestUtilities] - The set the Request 
+22:53:08.530 [INFO ] [RestUtilities] - The set the Response
+22:53:08.863 [INFO ] [StepDefinition] - 
+ ----------------------------------------------------------------------
+22:53:08.863 [INFO ] [StepDefinition] -  -------------- Step 3 Set and Verify Response ------------------
+22:53:10.184 [TRACE] [RestUtilities] - Request method:	POST
+22:53:10.184 [TRACE] [RestUtilities] - Request URI:	https://reqres.in/api/login
+22:53:10.184 [TRACE] [RestUtilities] - Proxy:			<none>
+22:53:10.184 [TRACE] [RestUtilities] - Request params:	<none>
+22:53:10.184 [TRACE] [RestUtilities] - Query params:	<none>
+22:53:10.184 [TRACE] [RestUtilities] - Form params:	<none>
+22:53:10.184 [TRACE] [RestUtilities] - Path params:	<none>
+22:53:10.184 [TRACE] [RestUtilities] - Headers:		Accept=*/*
+22:53:10.184 [TRACE] [RestUtilities] - 				Content-Type=application/json; charset=UTF-8
+22:53:10.184 [TRACE] [RestUtilities] - Cookies:		<none>
+22:53:10.184 [TRACE] [RestUtilities] - Multiparts:		<none>
+22:53:10.184 [TRACE] [RestUtilities] - Body:
+22:53:10.184 [TRACE] [RestUtilities] - {
+22:53:10.184 [TRACE] [RestUtilities] -     "email": "eve.holt@reqres.in",
+22:53:10.184 [TRACE] [RestUtilities] -     "password": "cityslicka"
+22:53:10.184 [TRACE] [RestUtilities] - }
+22:53:14.341 [TRACE] [RestUtilities] - HTTP/1.1 200 OK
+22:53:14.341 [TRACE] [RestUtilities] - Date: Sat, 05 Sep 2020 03:53:13 GMT
+22:53:14.341 [TRACE] [RestUtilities] - Content-Type: application/json; charset=utf-8
+22:53:14.341 [TRACE] [RestUtilities] - Content-Length: 29
+22:53:14.341 [TRACE] [RestUtilities] - Connection: keep-alive
+22:53:14.345 [TRACE] [RestUtilities] - Set-Cookie: __cfduid=d12228da12475ea9b5c2fc7676c875c941599277993; expires=Mon, 05-Oct-20 03:53:13 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+22:53:14.345 [TRACE] [RestUtilities] - X-Powered-By: Express
+22:53:14.345 [TRACE] [RestUtilities] - Access-Control-Allow-Origin: *
+22:53:14.345 [TRACE] [RestUtilities] - Etag: W/"1d-lGCrvD6B7Qzk11+2C98+nGhhuec"
+22:53:14.345 [TRACE] [RestUtilities] - Via: 1.1 vegur
+22:53:14.346 [TRACE] [RestUtilities] - CF-Cache-Status: DYNAMIC
+22:53:14.346 [TRACE] [RestUtilities] - cf-request-id: 04fdfea67e0000fed2e90af200000001
+22:53:14.346 [TRACE] [RestUtilities] - Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+22:53:14.346 [TRACE] [RestUtilities] - Server: cloudflare
+22:53:14.346 [TRACE] [RestUtilities] - CF-RAY: 5cdd0083ff51fed2-IAH
+22:53:14.346 [TRACE] [RestUtilities] - 
+22:53:14.346 [TRACE] [RestUtilities] - {
+22:53:14.346 [TRACE] [RestUtilities] -     "token": "QpwL5tke4Pnpja7X4"
+22:53:14.347 [TRACE] [RestUtilities] - }
+22:53:16.496 [INFO ] [RegresInOperations] - The response is: {"token":"QpwL5tke4Pnpja7X4"}
+22:53:16.496 [INFO ] [StepDefinition] - The response was validated
+22:53:16.511 [INFO ] [StepDefinition] - The Test Steps app.stepdef.StepDefinition have been completed
+22:53:16.511 [INFO ] [StepDefinition] - ======PASSED=====
+22:53:16.563 [INFO ] [StepDefinition] - The Test Suite app.stepdef.StepDefinition has started
+22:53:16.581 [INFO ] [StepDefinition] - 
+ ----------------------------------------------------------------------
+22:53:16.581 [INFO ] [StepDefinition] -  -------------- Step 1 Read Test data ------------------
+22:53:16.581 [INFO ] [StepDefinition] - Read the name
+22:53:16.581 [INFO ] [StepDefinition] - Read the job
+22:53:16.587 [INFO ] [StepDefinition] - Read the KeyHeader
+22:53:16.587 [INFO ] [StepDefinition] - Read the headerValue
+22:53:16.592 [INFO ] [StepDefinition] - Read the EndPoint
+22:53:16.603 [INFO ] [StepDefinition] - The Test Steps app.stepdef.StepDefinition have been completed
+22:53:16.639 [INFO ] [StepDefinition] - The Test Suite app.stepdef.StepDefinition has started
+22:53:16.639 [INFO ] [StepDefinition] - 
+ ----------------------------------------------------------------------
+22:53:16.639 [INFO ] [StepDefinition] -  -------------- Step 1 Read Test data ------------------
+22:53:16.639 [INFO ] [StepDefinition] - Read the name
+22:53:16.639 [INFO ] [StepDefinition] - Read the lastname
+22:53:16.639 [INFO ] [StepDefinition] - Read the id
+22:53:16.639 [INFO ] [StepDefinition] - Read the EndPoint
+22:53:16.657 [INFO ] [StepDefinition] - The Test Steps app.stepdef.StepDefinition have been completed

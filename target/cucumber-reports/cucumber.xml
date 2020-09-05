@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="12.582895">
+<testcase classname="Resgres APIs this is for practice RestAssured" name="Login Resgres" time="11.024148">
+<system-out><![CDATA[Given I have the email eve.holt@reqres.in...................................passed
+And I have the password cityslicka..........................................passed
+And I have the keyHeader Content-Type.......................................passed
+And I have the headerValue application/json.................................passed
+When I set the endpoint Login...............................................passed
+Then I can verify the status code 200.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Resgres APIs this is for practice RestAssured" name="Create resource Resgres" time="0.800412">
+<system-out><![CDATA[Given I have the name eve.holt@reqres.in....................................passed
+And I have the job cityslicka...............................................passed
+And I have the keyHeader Content-Type.......................................passed
+And I have the headerValue application/json.................................passed
+When I set the endpoint Users...............................................passed
+Then I can verify the status 201 to create resource.........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Resgres APIs this is for practice RestAssured" name="Search a single User Resgres" time="0.758335">
+<system-out><![CDATA[Given I have the name Michael...............................................passed
+And I have the lastname Lawson..............................................passed
+And I have the id 7.........................................................passed
+When I set the endpoint Users...............................................passed
+Then I can verify for a single user the status code 200.....................passed
+]]></system-out>
+</testcase>
+</testsuite>
